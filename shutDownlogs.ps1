@@ -1,6 +1,3 @@
-
-
-#$dateInput = "2024-10-29" 
 $dateInput = Read-Host -Prompt "Enter date in YYYY-MM-DD format"
 
 $startOfMonth = (Get-Date $dateInput).AddDays(-(Get-Date $dateInput).Day + 1)
